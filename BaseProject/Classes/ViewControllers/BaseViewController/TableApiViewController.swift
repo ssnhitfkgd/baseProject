@@ -8,25 +8,6 @@
 
 import UIKit
 
-//class UtilSingleton: NSObject {
-//    
-//    var iVal: Int = 0
-//    
-//    class var shareInstance: UtilSingleton {
-//        get {
-//            struct Static {
-//                static var instance: UtilSingleton? = nil
-//                static var token: dispatch_once_t = 0
-//            }
-//            dispatch_once(&Static.token, {
-//                Static.instance = UtilSingleton()
-//            })
-//            return Static.instance!
-//        }
-//    }
-//    
-//}
-
 
 class TableApiViewController: ModelApiViewController, UITableViewDelegate, UITableViewDataSource, TableViewDelegate {
 

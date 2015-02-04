@@ -18,8 +18,8 @@ class RequestConfig: NSObject {
         return "1"
     }
     
-    public func getRequestURL(api: NSString)-> NSString{
-        return [NSString stringWithFormat:"https://api.71ao.cn/%@/%@",getApiVersion(),api];
+    func getRequestURL(api: NSString)-> NSString{
+        return NSString(format: "https://api.71ao.cn/%@/%@", getApiVersion(),api)
     }
    
 }
